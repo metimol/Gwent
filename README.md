@@ -1,36 +1,54 @@
-# gwent-classic-v3.1
+# Gwent
+
 ![cover](https://user-images.githubusercontent.com/26311830/116256903-f1599b00-a7b6-11eb-84a1-16dcb5c9bfc6.jpg)
 
-A browser remake of the original Gwent minigame from The Witcher 3: Wild Hunt including all cards from the DLC.<br/>Click [here](https://randompianist.github.io/gwent-classic-v3.1/) to play.
+## What is Gwent?
 
-In addition to cloning the original game, various cards, faction, abilities and features have added to push the game even further.
+Gwent is a browser remake of the original Gwent minigame from The Witcher 3: Wild Hunt, including all cards from the DLC. The project aims to bring the beloved card game to the web, allowing players to enjoy it in their browsers. In addition to cloning the original game, various cards, factions, abilities, and features have been added to push the game even further.
 
-## Improvements:
+## Ownership
 
-Are listed here only the modifications done in this present fork, more were done before by other developers.
+This project belongs to the repository owner. The Witcher and all related games are owned by CD Projekt.
 
-### Adds
+## Features
 
-- Favicon
-- A statistics table
-- A "Give up" button
-- New visuals for carousel
-- Better styles on warning messages
+- Play the original Gwent minigame from The Witcher 3 in your browser
+- Includes cards from Hearts of Stone and Blood & Wine expansions
+- Various new cards, factions, abilities, and features added
 
-### Corrects
+## How to Launch the Project
 
-- Typo errors
-- Unusued code
-- Aesthetic values
-- Bug in leader use
-- Bug when drawing a match
-- Bug when redrawing cards at the start of each match
+To launch the project on your own, follow these steps:
 
-## Operations included with the keyboard:
+1. Clone the repository:
+   ```
+   git clone https://github.com/metimol/Gwent.git
+   ```
 
-**"E"** starts the game<br />
-**"X"** uses or modifies the leader card<br />
-**"Q"** closes the card explanation windows or gives up on the game<br />
-**"Space"** passes the round<br />
-**"Enter"** plays the cards<br />
-**Arrows** select cards on the carousel
+2. Navigate to the project directory:
+   ```
+   cd Gwent
+   ```
+
+3. Open the `index.html` file in your preferred web browser.
+
+## How to Use the Project
+
+### Gameplay Instructions
+
+1. Open the `index.html` file in your web browser.
+2. Click the "Click here to begin" button to start the game.
+3. Follow the on-screen instructions to play the game.
+
+### Keyboard Operations
+
+- **"E"**: Starts the game
+- **"X"**: Uses or modifies the leader card
+- **"Q"**: Closes the card explanation windows or gives up on the game
+- **"Space"**: Passes the round
+- **"Enter"**: Plays the cards
+- **Arrows**: Select cards on the carousel
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
